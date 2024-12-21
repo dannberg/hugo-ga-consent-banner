@@ -34,13 +34,18 @@ Add the following to your site’s `config.toml`:
 
 [params.cookieConsent]
   enable = true  # Set to true to enable the banner
-  message = "This site uses cookies to enhance your experience."
-  dismiss = "Got it!"
+  message = "This website uses Google Analytics. Is that cool with you?" # Set custom message
+  dismiss = "Sure!"
   learnMore = "Learn more"
   learnMoreLink = "/privacy-policy/"
 ```
 
-### **3. Rebuild Your Site**
+### **3. Create Privacy Policy** (optional)
+If you don't already have one, create a Privacy Policy page, located at `/privacy-policy/`. If you want to direct readers to a separate page in the consent banner instead, update the your `config.toml` with that URL.
+
+For more information about Privacy Policy requirements, see Google's [Analytics Help](https://support.google.com/analytics/answer/7318509?hl=en) documentation. To generate your own Privacy Policy, you can try TermsFeed's [Privacy Policy Generator](https://app.termsfeed.com/wizard/privacy-policy) or use Google to find a similar tool. This is not legal advice.
+
+### **4. Rebuild Your Site**
 Run the following commands:
 
 ```bash
