@@ -1,0 +1,6 @@
+[params.cookieConsent]
+  enable = true  # Can be set to true/false to enable/disable the banner
+  message = "This website uses Google Analytics. Is that cool with you?"
+  dismiss = "Sure!"
+  learnMore = "Learn more"
+  learnMoreLink = "/privacy-policy/"

@@ -1,0 +1,8 @@
+{{ if .Site.Params.cookieConsent.enable }}
+  <div id="cookie-banner" class="cookie-banner">
+    <p>{{ .Site.Params.cookieConsent.message }}
+      <a href="{{ .Site.Params.cookieConsent.learnMoreLink }}" class="learn-more">{{ .Site.Params.cookieConsent.learnMore }}</a>
+    </p>
+    <button id="cookie-accept-btn" class="btn-dismiss">{{ .Site.Params.cookieConsent.dismiss }}</button>
+  </div>
+{{ end }}

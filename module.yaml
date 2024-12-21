@@ -1,0 +1,5 @@
+goVersion: 1.19
+module:
+  hugoVersion:
+    min: 0.115.0
+  imports: []
