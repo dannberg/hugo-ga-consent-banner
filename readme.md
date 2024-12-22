@@ -1,8 +1,14 @@
 # Hugo GA Consent Banner
 
+**Status**: NOT WORKING
+
 **hugo-ga-consent-banner** is a simple and customizable cookie consent banner for personal blogs using Hugo and Google Analytics. It ensures compliance with cookie usage regulations while offering an easy integration for blog owners.
 
 ---
+
+## 📣 Status
+
+This Hugo module is currently under development and not in a working state. Do not add this module to your Hugo website.
 
 ## 🚀 Features
 
